@@ -141,6 +141,7 @@ header {
     line-height: 40px;
     border: 1px solid rgb(212,212,212);
     border-bottom: none;
+    background-color: rgb(226, 226, 226);
 }
 
 #btn2 {
@@ -150,7 +151,6 @@ header {
     line-height: 40px;
     border: 1px solid rgb(212,212,212);
     border-bottom: none;
-    background-color: rgb(226, 226, 226);
 }
 
 #btn3 {

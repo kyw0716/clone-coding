@@ -127,11 +127,6 @@ header {
 #top-btn {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgb(212, 212, 212);
-}
-
-#right-btn {
-    display: flex;
 }
 
 #btn1 {
@@ -140,8 +135,15 @@ header {
     text-align: center;
     line-height: 40px;
     border: 1px solid rgb(212,212,212);
-    border-bottom: none;
     background-color: rgb(226, 226, 226);
+    border-right: none;
+}
+
+.empty-space {
+    width: 21px;
+    height: 44px;
+    border: 1px solid rgb(212, 212, 212);
+    border-top: none;
 }
 
 #btn2 {
@@ -150,8 +152,8 @@ header {
     text-align: center;
     line-height: 40px;
     border: 1px solid rgb(212,212,212);
-    border-bottom: none;
     background-color: rgb(226, 226, 226);
+    border-left: none;
 }
 
 #btn3 {
